@@ -1,0 +1,103 @@
+<head>
+  <meta name="author" content="Katie Gaskin">
+  <meta name="description" content="The Interactive Morris website aims to have users interact 
+  with a Morris piece to better understand the history of the Arts and Crafts movement">
+  <html lang="eng"></html>
+<style>
+body { 
+  background-image: url(straw.jpeg);
+  background-size: 100%;
+    background-color: #050f36;
+    
+}
+h1 {color: #e4d1c9;
+font-family: 'Times New Roman',` Times, serif;
+font-size: 300%;
+}
+/* Popup container - can be anything you want */
+.popup {
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+</style>
+</head>
+<h1>William Morris</h1>
+
+<body style="text-align:center">
+  
+  <script>
+  // When the user clicks on div, open the popup
+  function myFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+  }
+  </script>
+  <video src="Background.mp4" width="1188" height="792" poster="Background.mp4"  onclick="this.play();">
+
+<div id="videoImg" style="margin-top:40px;">
+    </script>
+    <img src="straw.jpeg" usemap="#image-map" width=1188 height=792 >
+    <map name="image-map">
+        <area target="bird" title="bird" href="Background.mp4" coords="63,528,405,236" shape="rect" onclick="document.location='background.mp4';returnfalse;">
+        <area target="strawberries" title="strawberries" href="" coords="384,1002,512,1031,476,912,411,943" shape="poly" onclick="document.location='clicksection.html';returnfalse;">
+        <area target="leaves" title="leaves1" href="" coords="1640,863,1772,952,1884,886,1756,813" shape="poly" onclick="document.location='clicksection.html';returnfalse;">
+    
+</map>
+    </map>
+</div>
+</head>
+
+
+</script>

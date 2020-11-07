@@ -1,0 +1,20 @@
+<div id="videoImg" style="margin-top:40px;">
+    <img src="straw.jpeg" onclick="Video()" value="Loading video...." />
+</div>
+<div>
+    <video width="620" height="465" controls id="welcomeVideo" style="display:none;">
+        <source id="video1" type="video/mp4">
+    </video>
+</div>
+<script>
+    function Video() {
+        var videoEl = document.getElementById('welcomeVideo'),
+            sourceEl = document.getElementById('video1'),
+            videoImg = document.getElementById('videoImg');
+        videoImg.style.display="none";
+        videoEl.style.display="block";
+        sourceEl.src = 'background.mp4';
+        videoEl.load();
+        videoEl.play();
+    }
+</script>
