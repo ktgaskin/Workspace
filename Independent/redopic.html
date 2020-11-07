@@ -1,11 +1,12 @@
 <html>
 <head>
     <link rel="stylesheet" href="picstyle.css">
+    <script src="pic.js"></script>
 <head>
 <body>
     <div class="main"></div>
     <div class="image">
-        <img src="straw.jpeg" id="strawberry" height="804" width="1200">
+       <!--  <img src="straw.jpeg" id="strawberry" height="804" width="1200"> -->
     </div>
 
     <div class="main">
@@ -14,7 +15,7 @@
                <a href="background1.mp4">background</a>
                <br>
                <br>
-                <a href="#">leaves</a>
+                <a href="#" onclick="showPopup('hello', '25%', '25%')">leaves</a>
                 <br>
                 <br>
                 <a href="#">flowers</a>
@@ -37,5 +38,31 @@
             </div>
         </nav>
     </div>
+    <div class="popup" onclick="showPopup('hi', '50%', '75%')">Click me to toggle the popup!
+        <span class="popuptext" id="myPopup">A Simple Popup!</span>
+      </div>
+
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Open Modal</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Modal Header</h2>
+    </div>
+    <div class="modal-body">
+      <p>Some text in the Modal Body</p>
+      <p>Some other text...</p>
+    </div>
+    <div class="modal-footer">
+      <h3>Modal Footer</h3>
+    </div>
+  </div>
+
+</div>
 <body>
 <html>
