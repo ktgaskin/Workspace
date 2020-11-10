@@ -4,64 +4,48 @@
     <script src="pic.js"></script>
 <head>
 <body>
+    <video width="1100" height="750" id=backgroundvid class=backgroundvid controls>
+        <source src="background1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
     <div class="main"></div>
     <div class="image">
-       <!--  <img src="straw.jpeg" id="strawberry" height="804" width="1200"> -->
+    <img id=straw src="straw.jpeg" id="strawberry" height="750" width="1100">
     </div>
+ 
     <div class="main">
         <nav>
             <div class="sidenav">
-               <a href="background1.mp4">background</a>
+                <a href="#" onclick="showHide3()">refresh</a>
+               <a href="#" onclick="showPopup('Strawberry Thief was made using the indigo discharge method. This was an incredibly time intensive process—it took 3 days of drying. The intensive nature of the method made this piece one of Morris’ most expensive pieces. The rich colours is produced were unlike anything else on the market and were far superior to traditional coal-tar dyes that faded quickly. ', '80%', '10%');playVid();showHideback(); showHide2()">background</a>
                <br>
                <br>
-                <a href="#" onclick="showPopup('hello', '25%', '25%')">leaves</a>
+                <a href="#" onclick="showPopup('hello', '48%', '45%')">leaves</a>
                 <br>
                 <br>
-                <a href="#">flowers</a>
+                <a href="#"onclick="showPopup('hello', '48%', '50%')">flowers</a>
                 <br>
                 <br>
-                <a href="#">leaves2</a>
+                <a href="#" onclick="showPopup('hello', '80%', '70%')">leaves2</a>
                 <br>
                 <br>
-                <a href="#">bird</a>
+                <a href="#"onclick="showPopup('hello', '25%', '25%')">bird</a>
                 <br>
                 <br>
-                <a href="#">bird2</a>
+                <a href="#"onclick="showPopup('hello', '48%', '70%')">bird2</a>
                 <br>
                 <br>
-                <a href="#">strawberries</a>
+                <a href="#"onclick="showPopup('hello', '48%', '55%')">strawberries</a>
                 <br>
                 <br>
-                <a href="#">tag</a> 
+                <a href="#"onclick="showPopup('hello', '65%', '40%')">tag</a> 
                 </ul>
             </div>
         </nav>
     </div>
-    <div class="popup" onclick="showPopup('hi', '50%', '75%')">Click me to toggle the popup!
+    <div class="popup" onclick="showPopup('hi', '50%', '75%')">
         <span class="popuptext" id="myPopup">A Simple Popup!</span>
       </div>
-
-<!-- Trigger/Open The Modal -->
-<button id="myBtn">Open Modal</button>
-
-<!-- The Modal -->
-<div id="myModal" class="modal">
-
-  <!-- Modal content -->
-  <div class="modal-content">
-    <div class="modal-header">
-      <span class="close">&times;</span>
-      <h2>Modal Header</h2>
-    </div>
-    <div class="modal-body">
-      <p>Some text in the Modal Body</p>
-      <p>Some other text...</p>
-    </div>
-    <div class="modal-footer">
-      <h3>Modal Footer</h3>
-    </div>
-  </div>
-
 </div>
 <body>
 <html>
