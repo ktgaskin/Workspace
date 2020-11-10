@@ -47,6 +47,13 @@ body  {
   z-index: -1;
   display: hidden;
 }
+.tagvid {
+  position: absolute;
+  left: 10%;
+  top: 0%;
+  z-index: -1;
+  display: hidden;
+}
 .image {
   right: 0%;
   top: 0%;

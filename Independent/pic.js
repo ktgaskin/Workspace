@@ -9,7 +9,7 @@ function showPopup(textContent, leftPosition, topPosition) {
     popup.style.left = leftPosition;
     popup.style.top = topPosition;
 }
-
+//background video 
 function playVid() { 
     var vid = document.getElementById("backgroundvid"); 
     vid.play(); 
@@ -28,7 +28,20 @@ function showHide2() {
 function showHide3() {
     document.getElementById("straw").style.visibility="visible";
 }
-function showHideleaf() {
-    document.getElementById("backgroundvid").style.visibility="visible";
-}
 
+//tag video 
+function playVid1() { 
+    var vid = document.getElementById("tagvid"); 
+    vid.play(); 
+  } 
+  
+  function pauseVid1() { 
+    var vid = document.getElementById("tagvid"); 
+    vid.pause(); 
+  } 
+function showHidetag() {
+    document.getElementById("tagvid").style.visibility="visible";
+}
+function showHideleaf() {
+    document.getElementById("backgroundvid").style.visibility="hidden";
+}
