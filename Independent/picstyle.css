@@ -6,8 +6,10 @@
 body  {
     background-size: 100%;
     background-repeat: no-repeat;
+    background-color: #050f36;
     position: relative;
     height: 100%;
+    overflow: hidden;
 }
 .sidenav{
     height: 100%;
@@ -51,7 +53,35 @@ body  {
   position: absolute;
   left: 10%;
   top: 0%;
-  z-index: -1;
+  z-index: -2;
+  display: hidden;
+}
+.strawvid {
+  position: absolute;
+  left: 10%;
+  top: 0%;
+  z-index: -3;
+  display: hidden;
+}
+.leavesvid {
+  position: absolute;
+  left: 10%;
+  top: 0%;
+  z-index: -4;
+  display: hidden;
+}
+.flowervid {
+  position: absolute;
+  left: 10%;
+  top: 0%;
+  z-index: -5;
+  display: hidden;
+}
+.vinevid {
+  position: absolute;
+  left: 10%;
+  top: 0%;
+  z-index: -6;
   display: hidden;
 }
 .image {
