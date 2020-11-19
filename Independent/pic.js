@@ -6,10 +6,6 @@ function showPopup(textContent, leftPosition, topPosition) {
     popup.style.left = leftPosition;
     popup.style.top = topPosition;
 }
-function hidePopup() {
-  var popup = document.getElementById("myPopup")
-  popup.classList.toggle("hide");
-}
 //refresh button
 function showHide3() {
   document.getElementById("straw").style.visibility="visible";
@@ -29,6 +25,10 @@ function showHideback() {
 function showHide2() {
     document.getElementById("straw").style.visibility="hidden";
 }
+setInterval(function(){
+  document.getElementById("backgroundvid").play();
+}, 2500);
+
 //tag video 
 function playVidtag() { 
     var vid = document.getElementById("tagvid"); 
@@ -44,6 +44,9 @@ function showHidetag() {
 function showHideleaf() {
     document.getElementById("backgroundvid").style.visibility="hidden";
 }
+setInterval(function(){
+  document.getElementById("tagvid").play();
+}, 2500);
 //strawberry video 
 function playVidstraw() { 
   var vid = document.getElementById("strawvid"); 
@@ -62,6 +65,9 @@ function showHideleaf() {
 function showHidetags() {
   document.getElementById("tagvid").style.visibility="hidden";
 }
+setInterval(function(){
+  document.getElementById("strawvid").play();
+}, 2500);
 //leaves video 
 function playVidleaves() { 
   var vid = document.getElementById("leavesvid"); 
@@ -83,6 +89,9 @@ function showHidetags() {
 function showHidestraws() {
   document.getElementById("strawvid").style.visibility="hidden";
 }
+setInterval(function(){
+  document.getElementById("leavesvid").play();
+}, 2500);
 //flower video 
 function playVidflower() { 
   var vid = document.getElementById("flowervid"); 
@@ -107,6 +116,9 @@ function showHidestraws() {
 function showHideleave() {
   document.getElementById("leavesvid").style.visibility="hidden";
 }
+setInterval(function(){
+  document.getElementById("flowervid").play();
+}, 2500);
 //vine video 
 function playVidvine() { 
   var vid = document.getElementById("vinevid"); 
@@ -134,6 +146,9 @@ function showHideleave() {
 function showHideflow() {
   document.getElementById("flowervid").style.visibility="hidden";
 }
+setInterval(function(){
+  document.getElementById("vinevid").play();
+}, 2500);
 //blue bird  video 
 function playVidblue() { 
   var vid = document.getElementById("bluevid"); 
@@ -164,6 +179,9 @@ function showHideflow() {
 function showHidevinez() {
   document.getElementById("vinevid").style.visibility="hidden";
 }
+setInterval(function(){
+  document.getElementById("bluevid").play();
+}, 2500);
 //orange video 
 function playVidorange() { 
   var vid = document.getElementById("orangevid"); 
@@ -197,6 +215,9 @@ function showHidevinez() {
 function showHidebluez() {
   document.getElementById("bluevid").style.visibility="hidden";
 }
+setInterval(function(){
+  document.getElementById("orangevid").play();
+}, 2500);
 // other 
 function on() {
   document.getElementById("overlay").style.display = "block";
