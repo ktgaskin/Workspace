@@ -84,6 +84,20 @@ body  {
   z-index: -6;
   display: hidden;
 }
+.bluevid {
+  position: absolute;
+  left: 10%;
+  top: 0%;
+  z-index: -7;
+  display: hidden;
+}
+.orangevid {
+  position: absolute;
+  left: 10%;
+  top: 0%;
+  z-index: -8;
+  display: hidden;
+}
 .image {
   right: 0%;
   top: 0%;
@@ -99,8 +113,6 @@ body  {
     -ms-user-select: none;
     user-select: none;
   }
-  
-  /* The actual popup */
   .popup .popuptext {
     visibility: hidden;
     width: 160px;
@@ -112,8 +124,6 @@ body  {
     position: fixed;
     z-index: 1;
   }
-  
-  /* Popup arrow */
   .popup .popuptext::after {
     content: "";
     position: absolute;
@@ -124,21 +134,40 @@ body  {
     border-style: solid;
     border-color: #555 transparent transparent transparent;
   }
-  
-  /* Toggle this class - hide and show the popup */
   .popup .show {
     visibility: visible;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
   }
-  
-  /* Add animation (fade in the popup) */
   @-webkit-keyframes fadeIn {
     from {opacity: 0;} 
     to {opacity: 1;}
   }
-  
   @keyframes fadeIn {
     from {opacity: 0;}
     to {opacity:1 ;}
+  }
+  .overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+  }
+  
+  .text{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    z-index: 3;
   }

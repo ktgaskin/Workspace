@@ -1,7 +1,4 @@
-function alert1()
-{
-    alert(1);
-}
+
 function showPopup(textContent, leftPosition, topPosition) {
     var popup = document.getElementById("myPopup");
     popup.classList.toggle("show");
@@ -12,6 +9,10 @@ function showPopup(textContent, leftPosition, topPosition) {
 function hidePopup() {
   var popup = document.getElementById("myPopup")
   popup.classList.toggle("hide");
+}
+//refresh button
+function showHide3() {
+  document.getElementById("straw").style.visibility="visible";
 }
 //background video 
 function playVid() { 
@@ -28,10 +29,6 @@ function showHideback() {
 function showHide2() {
     document.getElementById("straw").style.visibility="hidden";
 }
-function showHide3() {
-    document.getElementById("straw").style.visibility="visible";
-}
-
 //tag video 
 function playVidtag() { 
     var vid = document.getElementById("tagvid"); 
@@ -137,5 +134,75 @@ function showHideleave() {
 function showHideflow() {
   document.getElementById("flowervid").style.visibility="hidden";
 }
-//tag video 
-//tag video 
+//blue bird  video 
+function playVidblue() { 
+  var vid = document.getElementById("bluevid"); 
+  vid.play(); 
+} 
+function pauseVidblue() { 
+  var vid = document.getElementById("bluevid"); 
+  vid.pause(); 
+} 
+function showHideblue() {
+  document.getElementById("bluevid").style.visibility="visible";
+}
+function showHideleaf() {
+  document.getElementById("backgroundvid").style.visibility="hidden";
+}
+function showHidetags() {
+  document.getElementById("tagvid").style.visibility="hidden";
+}
+function showHidestraws() {
+  document.getElementById("strawvid").style.visibility="hidden";
+}
+function showHideleave() {
+  document.getElementById("leavesvid").style.visibility="hidden";
+}
+function showHideflow() {
+  document.getElementById("flowervid").style.visibility="hidden";
+}
+function showHidevinez() {
+  document.getElementById("vinevid").style.visibility="hidden";
+}
+//orange video 
+function playVidorange() { 
+  var vid = document.getElementById("orangevid"); 
+  vid.play(); 
+} 
+function pauseVidorange() { 
+  var vid = document.getElementById("orangevid"); 
+  vid.pause(); 
+} 
+function showHideorange() {
+  document.getElementById("orangevid").style.visibility="visible";
+}
+function showHideleaf() {
+  document.getElementById("backgroundvid").style.visibility="hidden";
+}
+function showHidetags() {
+  document.getElementById("tagvid").style.visibility="hidden";
+}
+function showHidestraws() {
+  document.getElementById("strawvid").style.visibility="hidden";
+}
+function showHideleave() {
+  document.getElementById("leavesvid").style.visibility="hidden";
+}
+function showHideflow() {
+  document.getElementById("flowervid").style.visibility="hidden";
+}
+function showHidevinez() {
+  document.getElementById("vinevid").style.visibility="hidden";
+}
+function showHidebluez() {
+  document.getElementById("bluevid").style.visibility="hidden";
+}
+// other 
+function on() {
+  document.getElementById("overlay").style.display = "block";
+  document.addEventListener('overlay', overlay());
+}
+
+function off() {
+  document.getElementById("overlay").style.display = "none";
+}
