@@ -42,3 +42,17 @@
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
+.text {
+    color: cornsilk;
+    font-family: didot;
+    text-align: left;
+    position: fixed;
+    left: auto;
+}
+.image1 { 
+    size: 2ch;
+    height: 50px;
+    width: 75px;
+    position: relative;
+    align-items: right;
+}

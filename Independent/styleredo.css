@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: didot;
 }
 .main {
     width: 100%;
@@ -41,4 +41,7 @@
     color: cornsilk;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    top: 50%;
+    left: 40%;
+    position: absolute;
 }
