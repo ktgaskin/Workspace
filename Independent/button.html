@@ -1,0 +1,67 @@
+<html>
+<head>
+    <link rel="stylesheet" href="button.css">
+    <script src="pic.js"></script>
+<head>
+<body>
+
+<button type="button" id="button" class="button" onclick="showHide3(); showPopup()">refresh</button>
+<button type="button1" id="button1" class="button1" onclick="playVid();showHideback(); showHide2()">background</button>
+<button type="button2" id="button2" class="button2" onclick="showPopup('hello', '48%', '45%'); playVidleaves(); showHideleaves(); showHideleaf(); showHidetags(); showHide2(); showHidestraws()">leaves</button>
+<button type="button3" id="button3" class="button3" onclick="showPopup('hello', '80%', '70%'); playVidvine(); showHidevine(); showHideleaf(); showHidetags(); showHide2(); showHidestraws(); showHideleave(); showHideflow()">vines</button>
+<button type="button4" id="button4" class="button4" onclick="showPopup('hello', '48%', '70%'); playVidorange(); showHideorange(); showHideleaf(); showHidetags(); showHide2(); showHidestraws(); showHideleave(); showHideflow(); showHidevinez(); showHidebluez()">orange bird</button>
+<button type="button5" id="button5" class="button5" onclick="showPopup('hello', '25%', '25%'); playVidblue(); showHideblue(); showHideleaf(); showHidetags(); showHide2(); showHidestraws(); showHideleave(); showHideflow(); showHidevinez()">blue bird</button>
+<button type="button6" id="button6" class="button6" onclick="showPopup('hello', '48%', '55%'); playVidstraw(); showHidestraw(); showHideleaf(); showHidetags(); showHide2()">strawberries</button>
+<button type="button7" id="button7" class="button7" onclick="showPopup('hello', '65%', '40%'); playVidtag(); showHidetag(); showHideleaf(); showHide2()">tag</button>
+<button type="button8" id="button8" class="button8" onclick="showPopup('hello', '48%', '50%'); playVidflower(); showHideflower(); showHideleaf(); showHidetags(); showHide2(); showHidestraws(); showHideleave()">flowers</button>
+
+<!-- background video -->
+<video width="1200" height="795" id=backgroundvid class=backgroundvid controls>
+    <source src="background1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+<!-- tag video -->
+  <video width="1200" height="795" id=tagvid class=tagvid controls>
+    <source src="tag.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+<!-- strawberry video -->
+<video width="1200" height="795" id=strawvid class=strawvid controls>
+<source src="strawberry.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<!-- leaves video -->
+<video width="1200" height="795" id=leavesvid class=leavesvid controls>
+<source src="leaves.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
+<!-- vine video -->
+<video width="1200" height="795" id=vinevid class=vinevid controls>
+<source src="vines.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<!-- bluebird video -->
+<video width="1200" height="795" id=bluevid class=bluevid controls>
+<source src="bluebird.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<!-- orangebird video -->
+<video width="1200" height="795" id=orangevid class=orangevid controls>
+<source src="orangebird.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<!--flowers video -->
+<video width="1200" height="795" id=flowervid class=flowervid controls>
+<source src="flowers.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
+  
+<div class="main"></div>
+<div class="image">
+<img id=straw src="straw.jpeg" class="image" id="strawberry" height="795" width="1200">
+</div>
+<div class="popup" onclick="showPopup('hi', '50%', '75%')">
+    <span class="popuptext" id="myPopup">A Simple Popup!</span>
+  </div>
+  <body>
+    <html>

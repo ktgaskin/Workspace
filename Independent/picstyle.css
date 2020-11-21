@@ -99,10 +99,11 @@ body  {
   display: hidden;
 }
 .image {
-  left: 10%;
+  left: 0%;
   top: 0%;
   position: absolute;
   z-index: 0;
+
 }
 .popup {
     position: relative;
