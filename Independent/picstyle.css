@@ -98,8 +98,15 @@ body  {
   z-index: -8;
   display: hidden;
 }
+.quotevid {
+  position: absolute;
+  left: 10%;
+  top: 0%;
+  z-index: -9;
+  display: hidden;
+}
 .image {
-  left: 0%;
+  left: 10%;
   top: 0%;
   position: absolute;
   z-index: 0;
@@ -171,4 +178,14 @@ body  {
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
     z-index: 3;
+  }
+  .button {
+    z-index: 10;
+    left: 50%;
+    top: 50%;
+  }
+  .button .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
   }

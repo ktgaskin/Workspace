@@ -14,6 +14,7 @@
     <button onclick="on()">Turn on overlay effect</button>
   </div> -->
 
+<button type="button" id="button" class="button" onclick="">quote</button>
 
 <!-- background video -->
     <video width="1100" height="750" id=backgroundvid class=backgroundvid controls>
@@ -55,6 +56,12 @@
     <source src="flowers.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video> 
+<!--quote video -->
+<video width="1100" height="750" id=quotevid class=quotevid controls>
+  <source src="quote.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video> 
+
       
     <div class="main"></div>
     <div class="image">
@@ -65,7 +72,7 @@
         <nav>
             <div class="sidenav">
                 <a href="#" onclick="showHide3(); showPopup()">refresh</a>
-               <a href="#" onclick="showPopup('hello', '80%', '10%');playVid();showHideback(); showHide2()">background</a>
+               <a href="#" onclick="showPopup('hello', '80%', '10%');playVid();showHideback(); showHide2(); showButton()">background</a>
                <br>
                 <a href="#" onclick="showPopup('hello', '48%', '45%'); playVidleaves(); showHideleaves(); showHideleaf(); showHidetags(); showHide2(); showHidestraws()">leaves</a>
                 <br>
@@ -80,6 +87,8 @@
                 <a href="#"onclick="showPopup('hello', '48%', '55%'); playVidstraw(); showHidestraw(); showHideleaf(); showHidetags(); showHide2()">strawberries</a>
                 <br>
                 <a href="#"onclick="showPopup('hello', '65%', '40%'); playVidtag(); showHidetag(); showHideleaf(); showHide2()">tag</a> 
+                <br>
+                <a href="#" onclick="showPopup('hello', '48%', '70%'); playVidquote(); showHidequote(); showHideleaf(); showHidetags(); showHide2(); showHidestraws(); showHideleave(); showHideflow(); showHidevinez(); showHidebluez(); showHideorangez()">quote</a>
                 </ul>
             </div>
         </nav>
