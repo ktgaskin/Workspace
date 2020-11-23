@@ -218,11 +218,26 @@ function showHidebluez() {
 setInterval(function(){
   document.getElementById("orangevid").play();
 }, 2500);
-// other 
-function on() {
-  document.getElementById("overlay").style.display = "block";
-  document.addEventListener('overlay', overlay());
+//button 
+function button9() {
+  document.getElementById("button9").style.visibility = "visible";
 }
+function button9off() {
+  document.getElementById("button9").style.visibility = "hidden";
+}
+// other 
+$(document).ready(function() {
+  var visited = $.cookie("visited")
+  if (visited == null) {
+      $('#overlay').fadeIn();     
+      $.cookie('visited', 'yes');  
+  }
+  $.cookie('visited', 'yes', { expires: 1, path: '/' });
+});
+
+$('#overlay').click(function () {
+  $('#overlay').fadeOut(200, "linear");
+});
 
 function off() {
   document.getElementById("overlay").style.display = "none";

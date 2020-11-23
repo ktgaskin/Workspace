@@ -73,7 +73,7 @@ body  {
   left: 1%;
   top: 8%;
   position: absolute;
-  z-index: 0;
+  z-index: -1;
 }
 .popup {
     position: relative;
@@ -117,30 +117,6 @@ body  {
   @keyframes fadeIn {
     from {opacity: 0;}
     to {opacity:1 ;}
-  }
-  .overlay {
-    position: fixed;
-    display: none;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.5);
-    z-index: 2;
-    cursor: pointer;
-  }
-  
-  .text{
-    position: absolute;
-    top: 50%;
-    left: 0%;
-    font-size: 50px;
-    color: white;
-    transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    z-index: 3;
   }
   .button {
   background-color:#d3983f;
@@ -233,7 +209,7 @@ body  {
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Arial;
+	font-family:Didot;
 	font-size:17px;
 	padding:10px 15px;
 	text-decoration:none;
@@ -245,8 +221,52 @@ body  {
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Arial;
+	font-family:Didot;
 	font-size:17px;
 	padding:10px 15px;
 	text-decoration:none;
+}
+.button9 {
+  background-color:#c38281;
+	border-radius:13px;
+	border:1px solid #c38281;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Didot;
+	font-size:17px;
+	padding:10px 15px;
+  text-decoration:none;
+  display: hidden;
+}
+#overlay {
+  background: #050f36;
+  opacity: 75%;
+  height: 795px;
+  width: 1200px;
+  color: #fff;
+  padding: 250px 0;
+  z-index: 1;
+  text-align: center;
+  font-family: Didot;
+}
+.text{
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  z-index: 3;
+}
+.button {
+  z-index: 10;
+  left: 50%;
+  top: 50%;
+}
+.button .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
 }
