@@ -11,27 +11,6 @@ body  {
     height: 100%;
     overflow: hidden;
 }
-.sidenav{
-    height: 100%;
-    width: 160px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    padding-top: 20px;
-}
-.sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-}
-.sidenav a:hover {
-    color: cornsilk;
-}
 .main {
     height: 100%;
     margin-left: 160px; 
@@ -183,6 +162,19 @@ body  {
 	font-size:12px;
 	padding:5px 8px;
 	text-decoration:none;
+}
+.button9 {
+  background-color:#d3983f;
+	border-radius:13px;
+	border:1px solid #d3983f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: Didot;
+	font-size:12px;
+	padding:5px 8px;
+  text-decoration:none;
+  visibility: hidden;
 }
 #overlay {
   background: #050f36;

@@ -218,6 +218,13 @@ function showHidebluez() {
 setInterval(function(){
   document.getElementById("orangevid").play();
 }, 2500);
+//button 
+function button9() {
+  document.getElementById("button9").style.visibility = "visible";
+}
+function button9off() {
+  document.getElementById("button9").style.visibility = "hidden";
+}
 // other 
 $(document).ready(function() {
   var visited = $.cookie("visited")

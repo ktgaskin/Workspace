@@ -9,18 +9,18 @@
     <h1>Welcome to Strawberry Thief</h1>
     <p>Click around to learn more about William Morris and the Arts and Crafts Movement.</p>
     <p>Explore this 1881 textile print and watch it come to life before your eyes!</p>
-    <p>Press refresh after each animation to continue exploring</p>
+    <p>Press refresh after each animation to continue exploring </p>
     <p>Click close to begin.</p>
    <button class=close onclick="off()">close</button>
 </div>
 
   <button type="button" id="button" class="button" onclick="showHide3(); showPopup(); button9off()">refresh</button>
-
+  <button type="button9" id="button9" class="button9" onclick="playVidquote(); showHidequote(); showHideleaf(); showHidetags(); showHide2(); showHidestraws(); showHideleave(); showHideflow(); showHidevinez(); showHidebluez(); showHideorangez()">click me to hear from Morris</button>
   
     <img id=straw src="straw.jpeg" alt="strawberry" usemap="#workmap" class=straw width="1200" height="795">
 
     <map name="workmap">
-      <area class="backg" shape="rect" coords="112,5,1080,100" alt="background" href="#" onclick="showPopup('hello', '80%', '10%'); showHide2(); playVid();">
+      <area class="backg" shape="rect" coords="112,5,1080,100" alt="background" href="#" onclick="showPopup('hello', '80%', '10%'); playVid();showHideback(); showHide2(); button9()">
       <area shape="rect" coords="811,395,970,477" alt="leaves" href="#" onclick="showPopup('hello', '43%', '45%'); playVidleaves(); showHideleaves(); showHideleaf(); showHidetags(); showHide2(); showHidestraws(); button9off()">
       <area shape="rect" coords="511,650,696,740" alt="vines" href="#" onclick="showPopup('hello', '80%', '70%'); playVidvine(); showHidevine(); showHideleaf(); showHidetags(); showHide2(); showHidestraws(); showHideleave(); showHideflow(); button9off()">
       <area shape="rect" coords="178,308,265,392" alt="flower" href="#" onclick="showPopup('hello', '43%', '50%'); playVidflower(); showHideflower(); showHideleaf(); showHidetags(); showHide2(); showHidestraws(); showHideleave(); button9off()">
@@ -70,6 +70,12 @@
     <source src="flowers.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video> 
+  <!--quote video -->
+<video width="1200" height="795" id=quotevid class=quotevid controls>
+  <source src="quote.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video> 
+  
 
   <div class="popup" onclick="showPopup('hi', '50%', '75%')">
     <span class="popuptext" id="myPopup">A Simple Popup!</span>
