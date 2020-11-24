@@ -5,51 +5,63 @@
 <head>
 <body>
 
-    <img id=straw src="straw.jpeg" alt="strawberry" usemap="#workmap" class=straw width="1100" height="750">
+  <button type="button" id="button" class="button" onclick="showHide3(); showPopup(); button9off()">refresh</button>
+
+  
+    <img id=straw src="straw.jpeg" alt="strawberry" usemap="#workmap" class=straw width="1200" height="795">
 
     <map name="workmap">
-      <area class="backg" shape="rect" coords="34,44,270,350" alt="Computer" href="" onclick="showPopup('hello', '80%', '10%');playVid();showHideback(); showHide2()">
-      <area shape="rect" coords="290,172,333,250" alt="Phone" href="#">
-      <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="#">
+      <area class="backg" shape="rect" coords="112,5,1080,100" alt="background" href="#" onclick="showPopup('hello', '80%', '10%'); showHide2(); playVid();">
+      <area shape="rect" coords="811,395,970,477" alt="leaves" href="#" onclick="showPopup('hello', '43%', '45%'); playVidleaves(); showHideleaves(); showHideleaf(); showHidetags(); showHide2(); showHidestraws(); button9off()">
+      <area shape="rect" coords="511,650,696,740" alt="vines" href="#" onclick="showPopup('hello', '80%', '70%'); playVidvine(); showHidevine(); showHideleaf(); showHidetags(); showHide2(); showHidestraws(); showHideleave(); showHideflow(); button9off()">
+      <area shape="rect" coords="178,308,265,392" alt="flower" href="#" onclick="showPopup('hello', '43%', '50%'); playVidflower(); showHideflower(); showHideleaf(); showHidetags(); showHide2(); showHidestraws(); showHideleave(); button9off()">
+      <area shape="rect" coords="188,445,410,515" alt="strawberries" href="#" onclick="showPopup('hello', '43%', '55%'); playVidstraw(); showHidestraw(); showHideleaf(); showHidetags(); showHide2(); button9off()">
+      <area shape="rect" coords="94,94,189,211" alt="orange" href="#" onclick="showPopup('hello', '25%', '25%'); playVidorange(); showHideorange(); showHideleaf(); showHidetags(); showHide2(); showHidestraws(); showHideleave(); showHideflow(); showHidevinez(); showHidebluez(); button9off()">
+      <area shape="rect" coords="88,460,272,539" alt="blue" href="#" onclick="showPopup('hello', '44%', '70%'); playVidblue(); showHideblue(); showHideleaf(); showHidetags(); showHide2(); showHidestraws(); showHideleave(); showHideflow(); showHidevinez(); button9off()">
+      <area shape="rect" coords="15,17,90,167" alt="tag" href="#" onclick="showPopup('hello', '65%', '40%'); playVidtag(); showHidetag(); showHideleaf(); showHide2(); button9off()">
     </map>
 
 <!-- background video -->
-    <video width="1100" height="750" id=backgroundvid class=backgroundvid controls>
+    <video width="1200" height="795" id=backgroundvid class=backgroundvid controls>
         <source src="background1.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
 <!-- tag video -->
-      <video width="1100" height="750" id=tagvid class=tagvid controls>
+      <video width="1200" height="795" id=tagvid class=tagvid controls>
         <source src="tag.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
 <!-- strawberry video -->
-<video width="1100" height="750" id=strawvid class=strawvid controls>
+<video width="1200" height="795" id=strawvid class=strawvid controls>
     <source src="strawberry.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 <!-- leaves video -->
-<video width="1100" height="750" id=leavesvid class=leavesvid controls>
+<video width="1200" height="795" id=leavesvid class=leavesvid controls>
     <source src="leaves.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video> 
 <!-- vine video -->
-<video width="1100" height="750" id=vinevid class=vinevid controls>
+<video width="1200" height="795" id=vinevid class=vinevid controls>
     <source src="" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 <!-- bluebird video -->
-<video width="1100" height="750" id=bluevid class=bluevid controls>
+<video width="1200" height="795" id=bluevid class=bluevid controls>
     <source src="bluebird.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 <!-- orangebird video -->
-<video width="1100" height="750" id=orangevid class=orangevid controls>
+<video width="1200" height="795" id=orangevid class=orangevid controls>
     <source src="orangebird.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 <!--flowers video -->
-<video width="1100" height="750" id=flowervid class=flowervid controls>
+<video width="1200" height="795" id=flowervid class=flowervid controls>
     <source src="flowers.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video> 
+
+  <div class="popup" onclick="showPopup('hi', '50%', '75%')">
+    <span class="popuptext" id="myPopup">A Simple Popup!</span>
+  </div>
