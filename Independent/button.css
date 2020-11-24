@@ -240,10 +240,12 @@ body  {
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Didot;
-	font-size:17px;
-	padding:10px 15px;
+	font-size:15px;
+	padding:8px 13px;
   text-decoration:none;
-  display: hidden;
+  visibility: hidden;
+  margin-left: 180;
+  margin-top: 5;
 }
 #overlay {
   background: #050f36;
@@ -276,7 +278,7 @@ body  {
   animation: fadeIn 1s;
 }
 .buttons {
-  margin-left: 40;
+  margin-left: 150;
 }
 .close {
   background-color:#e4d1ca;

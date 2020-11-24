@@ -124,8 +124,8 @@ body  {
   .popup .popuptext {
     visibility: hidden;
     width: 160px;
-    background-color: #555;
-    color: #fff;
+    background-color: #02256d;
+    color: #e4d1c9;
     text-align: center;
     border-radius: 6px;
     padding: 8px 0;
@@ -185,4 +185,16 @@ body  {
     visibility: visible;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
+  }
+  .close {
+    background-color:#e4d1ca;
+    border-radius:13px;
+    border:1px solid #e4d1ca;
+    display:inline-block;
+    cursor:pointer;
+    color: black;
+    font-family: Didot;
+    font-size:15px;
+    padding:5px 10px;
+    text-decoration:none;
   }
