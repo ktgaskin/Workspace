@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Didot;
 }
 body  {
     background-size: 100%;
@@ -68,6 +68,12 @@ body  {
   left: 1%;
   top: 8%;
   z-index: -8;
+}
+.quotevid {
+  position: absolute;
+  left: 1%;
+  top: 8%;
+  z-index: -9;
 }
 .image {
   left: 1%;
@@ -224,7 +230,7 @@ body  {
 	font-family:Didot;
 	font-size:17px;
 	padding:10px 15px;
-	text-decoration:none;
+  text-decoration:none;
 }
 .button9 {
   background-color:#c38281;
@@ -243,12 +249,11 @@ body  {
   background: #050f36;
   opacity: 75%;
   height: 795px;
-  width: 1200px;
+  width: 1250px;
   color: #fff;
   padding: 250px 0;
   z-index: 1;
   text-align: center;
-  font-family: Didot;
 }
 .text{
   position: absolute;
@@ -269,4 +274,19 @@ body  {
   visibility: visible;
   -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s;
+}
+.buttons {
+  margin-left: 40;
+}
+.close {
+  background-color:#e4d1ca;
+	border-radius:13px;
+	border:1px solid #e4d1ca;
+	display:inline-block;
+	cursor:pointer;
+	color: black;
+	font-family: Didot;
+	font-size:15px;
+	padding:5px 10px;
+  text-decoration:none;
 }

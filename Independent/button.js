@@ -218,6 +218,44 @@ function showHidebluez() {
 setInterval(function(){
   document.getElementById("orangevid").play();
 }, 2500);
+function playVidquote() { 
+  var vid = document.getElementById("quotevid"); 
+  vid.play(); 
+} 
+function pauseVidquote() { 
+  var vid = document.getElementById("quotevid"); 
+  vid.pause(); 
+} 
+function showHidequote() {
+  document.getElementById("quotevid").style.visibility="visible";
+}
+function showHideleaf() {
+  document.getElementById("backgroundvid").style.visibility="hidden";
+}
+function showHidetags() {
+  document.getElementById("tagvid").style.visibility="hidden";
+}
+function showHidestraws() {
+  document.getElementById("strawvid").style.visibility="hidden";
+}
+function showHideleave() {
+  document.getElementById("leavesvid").style.visibility="hidden";
+}
+function showHideflow() {
+  document.getElementById("flowervid").style.visibility="hidden";
+}
+function showHidevinez() {
+  document.getElementById("vinevid").style.visibility="hidden";
+}
+function showHidebluez() {
+  document.getElementById("bluevid").style.visibility="hidden";
+}
+function showHideorangez() {
+  document.getElementById("orangevid").style.visibility="hidden";
+}
+setInterval(function(){
+  document.getElementById("orangevid").play();
+}, 2500);
 //button 
 function button9() {
   document.getElementById("button9").style.visibility = "visible";

@@ -7,23 +7,26 @@
 
   <div id="overlay">
     <h1>Welcome to Strawberry Thief</h1>
-    <p>Click around to learn more about William Morris and the Arts and Crafts Movement</p>
-    <p>Explore this 1881 textile print and watch it come to life before your eyes</p>
-    <p>Press the refresh button to refresh the page to the inital settings</p>
-    <p>Click close to begin</p>
-   <button onclick="off()">close</button>
+    <p>Click around to learn more about William Morris and the Arts and Crafts Movement.</p>
+    <p>Explore this 1881 textile print and watch it come to life before your eyes!</p>
+    <p>If the video plays without any text, press the button again.</p>
+    <p>To avoid pressing the buttons multiple times, press refresh between each animation.</p>
+    <p>Click close to begin.</p>
+   <button class=close onclick="off()">close</button>
 </div>
 
+<div class=buttons>
 <button type="button" id="button" class="button" onclick="showHide3(); showPopup()">refresh</button>
-<button type="button1" id="button1" class="button1" onclick="playVid();showHideback(); showHide2(); button9()">background</button>
-<button type="button2" id="button2" class="button2" onclick="showPopup('hello', '48%', '45%'); playVidleaves(); showHideleaves(); showHideleaf(); showHidetags(); showHide2(); showHidestraws()">leaves</button>
+<button type="button1" id="button1" class="button1" onclick="showPopup('hello', '80%', '10%'); playVid();showHideback(); showHide2(); button9()">background</button>
+<button type="button2" id="button2" class="button2" onclick="showPopup('hello', '43%', '45%'); playVidleaves(); showHideleaves(); showHideleaf(); showHidetags(); showHide2(); showHidestraws()">leaves</button>
 <button type="button3" id="button3" class="button3" onclick="showPopup('hello', '80%', '70%'); playVidvine(); showHidevine(); showHideleaf(); showHidetags(); showHide2(); showHidestraws(); showHideleave(); showHideflow()">vines</button>
-<button type="button4" id="button4" class="button4" onclick="showPopup('hello', '48%', '70%'); playVidorange(); showHideorange(); showHideleaf(); showHidetags(); showHide2(); showHidestraws(); showHideleave(); showHideflow(); showHidevinez(); showHidebluez()">orange bird</button>
-<button type="button5" id="button5" class="button5" onclick="showPopup('hello', '25%', '25%'); playVidblue(); showHideblue(); showHideleaf(); showHidetags(); showHide2(); showHidestraws(); showHideleave(); showHideflow(); showHidevinez()">blue bird</button>
-<button type="button6" id="button6" class="button6" onclick="showPopup('hello', '48%', '55%'); playVidstraw(); showHidestraw(); showHideleaf(); showHidetags(); showHide2()">strawberries</button>
+<button type="button4" id="button4" class="button4" onclick="showPopup('hello', '25%', '25%'); playVidorange(); showHideorange(); showHideleaf(); showHidetags(); showHide2(); showHidestraws(); showHideleave(); showHideflow(); showHidevinez(); showHidebluez()">orange bird</button>
+<button type="button5" id="button5" class="button5" onclick="showPopup('hello', '44%', '70%'); playVidblue(); showHideblue(); showHideleaf(); showHidetags(); showHide2(); showHidestraws(); showHideleave(); showHideflow(); showHidevinez()">blue bird</button>
+<button type="button6" id="button6" class="button6" onclick="showPopup('hello', '43%', '55%'); playVidstraw(); showHidestraw(); showHideleaf(); showHidetags(); showHide2()">strawberries</button>
 <button type="button7" id="button7" class="button7" onclick="showPopup('hello', '65%', '40%'); playVidtag(); showHidetag(); showHideleaf(); showHide2()">tag</button>
-<button type="button8" id="button8" class="button8" onclick="showPopup('hello', '48%', '50%'); playVidflower(); showHideflower(); showHideleaf(); showHidetags(); showHide2(); showHidestraws(); showHideleave()">flowers</button>
-<button type="button9" id="button9" class="button9" onclick="">click me to hear from Morris</button>
+<button type="button8" id="button8" class="button8" onclick="showPopup('hello', '43%', '50%'); playVidflower(); showHideflower(); showHideleaf(); showHidetags(); showHide2(); showHidestraws(); showHideleave()">flowers</button>
+<button type="button9" id="button9" class="button9" onclick="playVidquote(); showHidequote(); showHideleaf(); showHidetags(); showHide2(); showHidestraws(); showHideleave(); showHideflow(); showHidevinez(); showHidebluez(); showHideorangez()">click me to hear from Morris</button>
+</div>
 
 <!-- background video -->
 <video width="1200" height="795" id=backgroundvid class=backgroundvid controls>
@@ -64,6 +67,11 @@ Your browser does not support the video tag.
 <video width="1200" height="795" id=flowervid class=flowervid controls>
 <source src="flowers.mp4" type="video/mp4">
 Your browser does not support the video tag.
+</video> 
+<!--quote video -->
+<video width="1200" height="795" id=quotevid class=quotevid controls>
+  <source src="quote.mp4" type="video/mp4">
+  Your browser does not support the video tag.
 </video> 
   
 <div class="main"></div>
