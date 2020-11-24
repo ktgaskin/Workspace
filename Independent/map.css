@@ -184,3 +184,48 @@ body  {
 	padding:5px 8px;
 	text-decoration:none;
 }
+#overlay {
+  background: #050f36;
+  opacity: 75%;
+  height: 795px;
+  width: 1250px;
+  color: #fff;
+  padding: 250px 0;
+  z-index: 1;
+  text-align: center;
+}
+.text{
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  z-index: 3;
+}
+.button {
+  z-index: 10;
+  left: 50%;
+  top: 50%;
+}
+.button .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+.buttons {
+  margin-left: 150;
+}
+.close {
+  background-color:#e4d1ca;
+	border-radius:13px;
+	border:1px solid #e4d1ca;
+	display:inline-block;
+	cursor:pointer;
+	color: black;
+	font-family: Didot;
+	font-size:15px;
+	padding:5px 10px;
+  text-decoration:none;
+}
