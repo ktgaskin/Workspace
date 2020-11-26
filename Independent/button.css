@@ -24,60 +24,60 @@ body  {
 .backgroundvid {
   position: absolute;
   left: 1%;
-  top: 8%;
+  top: 5%;
   z-index: -1;
 }
 .tagvid {
   position: absolute;
   left: 1%;
-  top: 8%;
+  top: 5%;
   z-index: -2;
 }
 .strawvid {
   position: absolute;
   left: 1%;
-  top: 8%;
+  top: 5%;
   z-index: -3;
 }
 .leavesvid {
   position: absolute;
   left: 1%;
-  top: 8%;
+  top: 5%;
   z-index: -4;
 }
 .flowervid {
   position: absolute;
   left: 1%;
-  top: 8%;
+  top: 5%;
   z-index: -5;
 }
 .vinevid {
   position: absolute;
   left: 1%;
-  top: 8%;
+  top: 5%;
   z-index: -6;
 }
 .bluevid {
   position: absolute;
   left: 1%;
-  top: 8%;
+  top: 5%;
   z-index: -7;
 }
 .orangevid {
   position: absolute;
   left: 1%;
-  top: 8%;
+  top: 5%;
   z-index: -8;
 }
 .quotevid {
   position: absolute;
   left: 1%;
-  top: 8%;
+  top: 5%;
   z-index: -9;
 }
 .image {
   left: 1%;
-  top: 8%;
+  top: 5%;
   position: absolute;
   z-index: -1;
 }
@@ -93,13 +93,14 @@ body  {
   .popup .popuptext {
     visibility: hidden;
     width: 160px;
-    background-color: #555;
-    color: #fff;
+    background-color: #050f36;
+    color: #e4d1c9;
     text-align: center;
     border-radius: 6px;
     padding: 8px 0;
     position: fixed;
     z-index: 1;
+    font-family: Didot;
   }
   .popup .popuptext::after {
     content: "";
@@ -126,122 +127,122 @@ body  {
   }
   .button {
   background-color:#d3983f;
-	border-radius:13px;
+	border-radius:4px;
 	border:1px solid #d3983f;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	font-family: Didot;
 	font-size:17px;
-	padding:10px 15px;
+	padding:5px 10px;
 	text-decoration:none;
 }
 .button1 {
     background-color:#031456;
-    border-radius:13px;
+    border-radius:4px;
     border:1px solid #031456;
     display:inline-block;
     cursor:pointer;
     color:#ffffff;
     font-family: Didot;
     font-size:17px;
-    padding:10px 15px;
+    padding:5px 10px;
     text-decoration:none;
 }
 .button2 {
     background-color:#47552e;
-    border-radius:13px;
+    border-radius:4px;
     border:1px solid #47552e;
     display:inline-block;
     cursor:pointer;
     color:#ffffff;
     font-family:Didot;
     font-size:17px;
-    padding:10px 15px;
+    padding:5px 10px;
     text-decoration:none;
 }
 .button3 {
   background-color:#5d6c37;
-	border-radius:13px;
+	border-radius:4px;
 	border:1px solid #5d6c37;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Didot;
 	font-size:17px;
-	padding:10px 15px;
+	padding:5px 10px;
 	text-decoration:none;
 }
 .button4 {
   background-color:#b66d35;
-	border-radius:13px;
+	border-radius:4px;
 	border:1px solid #b66d35;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Didot;
 	font-size:17px;
-	padding:10px 15px;
+	padding:5px 10px;
 	text-decoration:none;
 }
 .button5 {
   background-color:#90a2c1;
-	border-radius:13px;
+	border-radius:4px;
 	border:1px solid #90a2c1;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Didot;
 	font-size:17px;
-	padding:10px 15px;
+	padding:5px 10px;
 	text-decoration:none;
 }
 .button6 {
   background-color:#9b4637;
-	border-radius:13px;
+	border-radius:4px;
 	border:1px solid #9b4637;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Didot;
 	font-size:17px;
-	padding:10px 15px;
+	padding:5px 10px;
 	text-decoration:none;
 }
 .button7 {
   background-color:#e4d1ca;
-	border-radius:13px;
+	border-radius:4px;
 	border:1px solid #e4d1ca;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Didot;
 	font-size:17px;
-	padding:10px 15px;
+	padding:5px 10px;
 	text-decoration:none;
 }
 .button8 {
   background-color:#c38281;
-	border-radius:13px;
+	border-radius:4px;
 	border:1px solid #c38281;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Didot;
 	font-size:17px;
-	padding:10px 15px;
+	padding:5px 10px;
   text-decoration:none;
 }
 .button9 {
   background-color:#c38281;
-	border-radius:13px;
+	border-radius:4px;
 	border:1px solid #c38281;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Didot;
 	font-size:15px;
-	padding:8px 13px;
+	padding:5px 10px;
   text-decoration:none;
   visibility: hidden;
   margin-left: 180;
@@ -278,7 +279,7 @@ body  {
   animation: fadeIn 1s;
 }
 .buttons {
-  margin-left: 150;
+  margin-left: 200;
 }
 .close {
   background-color:#e4d1ca;

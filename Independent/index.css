@@ -1,13 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Didot;
+    font-family: didot;
 }
 .main {
     width: 100%;
     height: 100%;
     position: relative;
-    overflow: hidden;
     background: #3e3e2d;
 }
 .nav{
@@ -23,51 +22,41 @@
     top: 0%;
     flex-basis: 20%;
     float: left;
-  }
-  .logo img {
+}
+.logo img {
     width: 60 px;
     display: flex;
     float: left;
     top: 2%;
     left: 2%;
-  }
-  .logo h1 {
+}
+.logo h1 {
     font-family: Didot;
     color: #e4d1ca;
     display: flex;
     font-size: 50px;
-  }
+}
 .nav-links {
     flex: 1;
     text-align: right;
+    float: right;
 }
 .nav-links ul li {
     list-style: none;
     display: inline-block;
-    margin: 20px;
+    margin: 0 20px;
 }
 .nav-links ul li a {
     color: #e4d1ca;
     text-decoration: none;
 }
 .title {
-    color: #e4d1ca;
-    font-family: 'Times New Roman', Times, serif;
+    color: e4d1ca;
+    font-family: Didot;
     text-align: center;
-}
-.text {
-    color: #e4d1ca;
-    font-family: didot;
-    text-align: left;
-    position: fixed;
-    left: auto;
-}
-.image1 { 
-    size: 2ch;
-    height: 50px;
-    width: 75px;
-    position: relative;
-    align-items: right;
+    top: 50%;
+    left: 35%;
+    position: absolute;
 }
 .rect { 
     width:1000px;
@@ -78,4 +67,4 @@
     top: 0%;
     left: 33%;
     opacity: 50%;
-  }
+}
