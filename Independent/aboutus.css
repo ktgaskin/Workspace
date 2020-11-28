@@ -7,7 +7,6 @@
     width: 100%;
     height: 100%;
     position: relative;
-    overflow: hidden;
     background: #3e3e2d;
 }
 .nav{
@@ -61,13 +60,10 @@
     text-align: left;
     position: fixed;
     left: auto;
+    margin-left: 5px;
 }
-.image1 { 
-    size: 2ch;
-    height: 50px;
-    width: 75px;
-    position: relative;
-    align-items: right;
+.text a {
+    color: #a45e3a;
 }
 .rect { 
     width:1000px;
@@ -76,6 +72,38 @@
     float: left;
     position: absolute;
     top: 0%;
-    left: 33%;
+    left: 37%;
     opacity: 50%;
   }
+  .image1 {
+      float: left;
+      margin-right: 15px;
+      margin-left: 7px;
+      display: table;
+      border: thin solid #e4d1ca;
+  }
+  .caption1 {
+      display: table-caption;
+      caption-side: bottom;
+      float: left;
+      font-size: 12px;
+  }
+  .image2 {
+    float: right;
+    margin-right: 7px;
+    margin-left: 15px;
+    display: table;
+    border: thin solid #e4d1ca;
+}
+.caption2 {
+    display: table-caption;
+    caption-side: bottom;
+    float: left;
+    font-size: 12px;
+}
+.image1 a {
+    color: #a45e3a;
+}
+.image2 a {
+    color: #a45e3a;
+}
