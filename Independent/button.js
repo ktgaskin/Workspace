@@ -222,6 +222,7 @@ function playVidquote() {
   var vid = document.getElementById("quotevid"); 
   vid.play(); 
 } 
+//quote vid
 function pauseVidquote() { 
   var vid = document.getElementById("quotevid"); 
   vid.pause(); 
