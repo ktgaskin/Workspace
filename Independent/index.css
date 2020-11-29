@@ -52,12 +52,15 @@
     text-decoration: none;
 }
 .title {
-    color: e4d1ca;
+    color: #e4d1ca;
     font-family: Didot;
     text-align: center;
     top: 50%;
     left: 35%;
     position: absolute;
+}
+.title a {
+    color: #a45e3a;
 }
 .rect { 
     width:1000px;
@@ -69,10 +72,10 @@
     left: 37%;
     opacity: 50%;
 }
+.bimage{
+    position: relative;
+}
 .bimage img { 
-    z-index: -4;
-    height: 2000px;
-    transform: rotate(180deg);
-    bottom: 20%;
-    display: inline-block;
+    position: absolute;
+    left: 100px;
 }

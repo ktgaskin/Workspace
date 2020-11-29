@@ -257,7 +257,7 @@ function showHideorangez() {
 setInterval(function(){
   document.getElementById("orangevid").play();
 }, 2500);
-//button 
+//quote button 
 function button9() {
   document.getElementById("button9").style.visibility = "visible";
 }
@@ -277,7 +277,7 @@ $(document).ready(function() {
 $('#overlay').click(function () {
   $('#overlay').fadeOut(200, "linear");
 });
-
+//overlay
 function off() {
   document.getElementById("overlay").style.display = "none";
 }
