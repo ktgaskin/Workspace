@@ -134,8 +134,11 @@ body  {
 	color:#ffffff;
 	font-family: Didot;
 	font-size:17px;
-	padding:5px 10px;
+  padding:5px 10px;
 	text-decoration:none;
+}
+.button:hover {
+  background-color: #b66d35;
 }
 .button1 {
     background-color:#031456;
@@ -149,6 +152,9 @@ body  {
     padding:5px 10px;
     text-decoration:none;
 }
+.button1:hover {
+  background-color: #b66d35;
+}
 .button2 {
     background-color:#47552e;
     border-radius:4px;
@@ -160,6 +166,9 @@ body  {
     font-size:17px;
     padding:5px 10px;
     text-decoration:none;
+}
+.button2:hover {
+  background-color: #b66d35;
 }
 .button3 {
   background-color:#5d6c37;
@@ -173,6 +182,9 @@ body  {
 	padding:5px 10px;
 	text-decoration:none;
 }
+.button3:hover {
+  background-color: #b66d35;
+}
 .button4 {
   background-color:#b66d35;
 	border-radius:4px;
@@ -184,6 +196,9 @@ body  {
 	font-size:17px;
 	padding:5px 10px;
 	text-decoration:none;
+}
+.button4:hover {
+  background-color: #b66d35;
 }
 .button5 {
   background-color:#90a2c1;
@@ -197,6 +212,9 @@ body  {
 	padding:5px 10px;
 	text-decoration:none;
 }
+.button5:hover {
+  background-color: #b66d35;
+}
 .button6 {
   background-color:#9b4637;
 	border-radius:4px;
@@ -208,6 +226,9 @@ body  {
 	font-size:17px;
 	padding:5px 10px;
 	text-decoration:none;
+}
+.button6:hover {
+  background-color: #b66d35;
 }
 .button7 {
   background-color:#e4d1ca;
@@ -221,6 +242,9 @@ body  {
 	padding:5px 10px;
 	text-decoration:none;
 }
+.button7:hover {
+  background-color: #b66d35;
+}
 .button8 {
   background-color:#c38281;
 	border-radius:4px;
@@ -232,6 +256,9 @@ body  {
 	font-size:17px;
 	padding:5px 10px;
   text-decoration:none;
+}
+.button8:hover {
+  background-color: #b66d35;
 }
 .button9 {
   background-color:#c38281;
@@ -247,6 +274,9 @@ body  {
   visibility: hidden;
   margin-left: 180;
   margin-top: 5;
+}
+.button9:hover {
+  background-color: #b66d35;
 }
 #overlay {
   background: #050f36;
@@ -279,7 +309,7 @@ body  {
   animation: fadeIn 1s;
 }
 .buttons {
-  margin-left: 200;
+  margin-left: 100;
 }
 .close {
   background-color:#e4d1ca;
