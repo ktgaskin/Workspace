@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
 }
-#logo {
+.logo {
     position: fixed;
     top: 0%;
     flex-basis: 20%;
@@ -35,6 +35,7 @@
     color: #e4d1ca;
     display: flex;
     font-size: 50px;
+    margin: 15px 90px;
   }
 .nav-links {
     flex: 1;
@@ -55,6 +56,7 @@
     text-align: center;
 }
 .text {
+    margin-top: 25px;
     color: #e4d1ca;
     font-family: didot;
     text-align: left;
@@ -65,16 +67,6 @@
 .text a {
     color: #a45e3a;
 }
-.rect { 
-    width:1000px;
-    height:60px;
-    background-color: #a45e3a;
-    float: left;
-    position: absolute;
-    top: 0%;
-    left: 37%;
-    opacity: 50%;
-  }
   .image1 {
       float: left;
       margin-right: 15px;

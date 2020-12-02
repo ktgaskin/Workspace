@@ -153,7 +153,7 @@ body  {
     text-decoration:none;
 }
 .button1:hover {
-  background-color: #b66d35;
+  background-color: #3f5a84;
 }
 .button2 {
     background-color:#47552e;
@@ -168,7 +168,7 @@ body  {
     text-decoration:none;
 }
 .button2:hover {
-  background-color: #b66d35;
+  background-color: #928b5c;
 }
 .button3 {
   background-color:#5d6c37;
@@ -183,7 +183,7 @@ body  {
 	text-decoration:none;
 }
 .button3:hover {
-  background-color: #b66d35;
+  background-color: #928b5c;
 }
 .button4 {
   background-color:#b66d35;
@@ -198,7 +198,7 @@ body  {
 	text-decoration:none;
 }
 .button4:hover {
-  background-color: #b66d35;
+  background-color: #dfa96a;
 }
 .button5 {
   background-color:#90a2c1;
@@ -213,7 +213,7 @@ body  {
 	text-decoration:none;
 }
 .button5:hover {
-  background-color: #b66d35;
+  background-color: #597398;
 }
 .button6 {
   background-color:#9b4637;
@@ -228,7 +228,7 @@ body  {
 	text-decoration:none;
 }
 .button6:hover {
-  background-color: #b66d35;
+  background-color: #ad6560;
 }
 .button7 {
   background-color:#e4d1ca;
@@ -243,7 +243,7 @@ body  {
 	text-decoration:none;
 }
 .button7:hover {
-  background-color: #b66d35;
+  background-color: #d8b6ae;
 }
 .button8 {
   background-color:#c38281;
@@ -258,12 +258,12 @@ body  {
   text-decoration:none;
 }
 .button8:hover {
-  background-color: #b66d35;
+  background-color: #ad6560;
 }
 .button9 {
-  background-color:#c38281;
+  background-color:#dfa76b;
 	border-radius:4px;
-	border:1px solid #c38281;
+	border:1px solid #dfa76b;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -276,7 +276,7 @@ body  {
   margin-top: 5;
 }
 .button9:hover {
-  background-color: #b66d35;
+  background-color: #d1965c;
 }
 #overlay {
   background: #050f36;
@@ -309,7 +309,7 @@ body  {
   animation: fadeIn 1s;
 }
 .buttons {
-  margin-left: 100;
+  margin-left: 200;
 }
 .close {
   background-color:#e4d1ca;

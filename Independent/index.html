@@ -1,42 +1,97 @@
 <html>
 <head>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="button.css">
+    <script src="button.js"></script>
 <head>
 <body>
-    <div class="main">
-        <nav>
-            <div class="logo">
-                <img src="DD.PNG" width="60px" class="logo">
-                <h1>Decora Digital</h1>
-             </div>
-            <div class="nav-links">
-                <ul>
-                    <li><a href="index.html">home</a> </li>
-                    <li><a href="aboutus.html">about us</a> </li>
-                    <li><a href="gallery.html">the art</a> </li>
-                    <li><a href="contactus.html">contact us</a> </li>
-                </ul>
-               <div class=bimage>
-                    <img src="compton.png">
-                 </div>
-            </div>
-        </nav>
-        <div class="title">
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <h1> Welcome to Decora Digital </h1>
-            <p>Check out the art tag to see all the pieces available</p>
-            <p>Click <a href="button.html">here</a> to interact with our newest piece Strawberry Thief </p>
-        </div>
-    </div>
-</body>
+
+  <div id="overlay">
+    <h1>Welcome to Strawberry Thief</h1>
+    <p>Click around to learn more about William Morris and the Arts and Crafts Movement.</p>
+    <p>Explore this 1881 textile print and watch it come to life before your eyes!</p>
+    <p>If the video plays without any text, press the button again.</p>
+    <p>To avoid pressing the buttons multiple times, press refresh between each animation.</p>
+    <p>Click close to begin.</p>
+   <button class=close onclick="off()">close</button>
+</div>
+
+
+
+<div class=buttons>
+<button type="button" id="button" class="button" onclick="showHide3(); showPopup(); button9off()">Refresh</button>
+<button type="button1" id="button1" class="button1" onclick="showPopup('Strawberry Thief was made using the indigo discharge method. This was an incredibly time intensive process that required 3 entire days of drying. But the colours produced by this process were unlike anything else on the market and highly desired. ', '80%', '10%'); 
+playVid();showHideback(); showHide2(); button9()">Background</button>
+<button type="button3" id="button3" class="button3" onclick="showPopup('This piece was designed as a textile print that would be displayed in a home. This meant viewers would interact with the piece many times in their lives—potentially daily for years or decades. Morris made his designs intricate so viewers wouldn’t get bored!  ', '80%', '60%'); 
+playVidvine(); showHidevine(); showHideleaf(); showHidetags(); showHide2(); showHidestraws(); showHideleave(); showHideflow(); button9off()">Vines</button>
+<button type="button4" id="button4" class="button4" onclick="showPopup('Morris wanted balance in his art and wanted each part of the piece to shine. So, his work does not have a subject, instead viewers get to choose which part of the work they focus on!', '25%', '25%'); 
+playVidorange(); showHideorange(); showHideleaf(); showHidetags(); showHide2(); showHidestraws(); showHideleave(); showHideflow(); showHidevinez(); showHidebluez(); button9off()">Orange Bird</button>
+<button type="button5" id="button5" class="button5" onclick="showPopup('Morris was inspired to create this piece after watching a thrush, a common British bird, eating strawberries in his backyard. ', '45%', '70%'); 
+playVidblue(); showHideblue(); showHideleaf(); showHidetags(); showHide2(); showHidestraws(); showHideleave(); showHideflow(); showHidevinez(); button9off()">Blue Bird</button>
+<button type="button6" id="button6" class="button6" onclick="showPopup('The Arts and Craft Movement disliked the Industrial Revolution and the rise of factory work. People like Morris believed workers needed to be creative to thrive.  ', '45%', '55%'); 
+playVidstraw(); showHidestraw(); showHideleaf(); showHidetags(); showHide2(); button9off()">Strawberries</button>
+<button type="button7" id="button7" class="button7" onclick="showPopup('Morris and Co. was founded in 1861 as Morris, Marshall, Faulkner, and Co. It brought together many artists specializing in different areas. Morris was focused on wallpaper and textile production. In 1875, the name was shortened to Morris and Co. ', '65%', '40%'); 
+playVidtag(); showHidetag(); showHideleaf(); showHide2(); button9off()">Label</button>
+<button type="button8" id="button8" class="button8" onclick="showPopup('This was one of the most expensive pieces made by Morris and Co. and is still one of Morris most famous and most desired! You may have seen it before on a mug, t-shirt, or wall. ', '45%', '50%'); 
+playVidflower(); showHideflower(); showHideleaf(); showHidetags(); showHide2(); showHidestraws(); showHideleave(); button9off()">Flowers</button>
+<button type="button2" id="button2" class="button2" onclick="showPopup('All of the Morris and Co. products were handmade. Morris resisted the ideals of the Industrial Revolution and the increase in mechanized factory work it created. ', '45%', '45%'); 
+playVidleaves(); showHideleaves(); showHideleaf(); showHidetags(); showHide2(); showHidestraws(); button9off()">Leaves</button>
+</div>
+
+<button type="button9" id="button9" class="button9" onclick="showPopup(); showPopup('This is from a Morris and Co. catalogue advertising Strawberry Thief in 1885','80%', '10%'); playVidquote(); showHidequote(); showHideleaf(); showHidetags(); showHide2(); showHidestraws(); showHideleave(); showHideflow(); showHidevinez(); showHidebluez(); showHideorangez(); playAudio()">click me to hear from Morris</button>
+
+<!-- background video -->
+<video width="1200" height="795" id=backgroundvid class=backgroundvid controls>
+    <source src="background1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+<!-- tag video -->
+  <video width="1200" height="795" id=tagvid class=tagvid controls>
+    <source src="tag.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+<!-- strawberry video -->
+<video width="1200" height="795" id=strawvid class=strawvid controls>
+<source src="strawberry.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<!-- leaves video -->
+<video width="1200" height="795" id=leavesvid class=leavesvid controls>
+<source src="leaves.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
+<!-- vine video -->
+<video width="1200" height="795" id=vinevid class=vinevid controls>
+<source src="vines.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<!-- bluebird video -->
+<video width="1200" height="795" id=bluevid class=bluevid controls>
+<source src="bluebird.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<!-- orangebird video -->
+<video width="1200" height="795" id=orangevid class=orangevid controls>
+<source src="orangebird.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<!--flowers video -->
+<video width="1200" height="795" id=flowervid class=flowervid controls>
+<source src="flowers.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
+<!--quote video -->
+<video width="1200" height="795" id=quotevid class=quotevid controls>
+  <source src="quote2.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video> 
+
+  
+<div class="main"></div>
+<div class="image">
+<img id=straw src="straw.jpeg" class="image" id="strawberry" height="795" width="1200">
+</div>
+<div class="popup" onclick="showPopup('hi', '50%', '75%')">
+    <span class="popuptext" id="myPopup">A Simple Popup!</span>
+  </div>
+  <body>
+ <html>
